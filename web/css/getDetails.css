@@ -1,0 +1,26 @@
+.drop_down{
+      /* background: #a09b9b; */
+      display:Flex;
+      justify-content: space-around;
+      margin-top:40px;
+      margin-bottom:30px;
+}
+.drop-item{
+      width:25%;
+      /* background: lightcoral; */
+      font-size: 16px;
+      text-transform: uppercase;
+}
+.drop-item label{
+      margin-right:10px;
+}
+.drop-item select{
+      width:250px;
+}
+.table-container{
+      width:95%;
+      background: hotpink;
+      /* margin-top: 80px; */
+      margin:80px auto;
+}
+
