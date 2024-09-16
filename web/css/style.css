@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+*{
+      padding:0;
+      margin:0;
+      font-family: "SUSE", sans-serif;
+}
+.navbar{
+      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%, rgba(0,207,255,1) 100%);
+}
+.main-content{
+      width:100%;
+      height:89vh;
+      /* background: yellow; */
+      display:flex;
+      align-items: center;
+}
+.img-box{
+      width:50%;
+      height:450px;
+      background: rgb(240, 240, 131);
+      margin-left:30px;
+}
+.img-box img{
+      width:100%;
+      height:100%;
+}
+.option-box{
+      width:45%;
+      height:89vh;
+      margin:auto;
+      /* background: #d7d5d5; */
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+.title{
+      text-align: center;
+      /* background: #fa8e8e; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+.title h2{
+      padding:10px;
+      margin-bottom:30px;
+      /* background: yellowgreen; */
+      text-transform: uppercase;
+      letter-spacing: 5px;
+}
+
+.title .btns{
+      width:80%;
+      /* background: rgb(151, 196, 67); */
+      display:flex;
+      flex-direction: column;
+    
+      
+}
+.title button{
+      margin-bottom:30px;
+}
+.btns a button{
+      padding:5px;
+      width:100%;
+      background: linear-gradient(90deg, rgba(57,157,198,1) 0%, rgba(76,221,255,0.5943627450980392) 100%, rgba(0,212,255,1) 100%);
+      
+ }
+ .btns a{
+      color:black;
+ }
+.btns .btn2{
+      background: linear-gradient(90deg, rgba(214,143,55,1) 0%, rgba(255,200,122,1) 100%, rgba(255,190,76,0.5943627450980392) 100%);
+}
+.btns a button:hover{
+      color:black;
+}
+

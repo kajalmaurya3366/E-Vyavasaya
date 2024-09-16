@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    
+    <multipart-config>
+        <max-file-size>10000000</max-file-size>
+        <!-- 10MB -->
+        <max-request-size>10000000</max-request-size>
+        <!-- 10MB -->
+        <file-size-threshold>102400</file-size-threshold>
+        <!-- 100KB -->
+    </multipart-config>
+    
+    <servlet>
+        <servlet-name>EmpForm</servlet-name>
+        <servlet-class>com.clgProject.WorkerForm</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>EmpForm</servlet-name>
+        <url-pattern>/EmpForm</url-pattern>
+    </servlet-mapping>
+    
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    
+    <dependency>
+        <groupId>com.oracle</groupId>
+        <artifactId>ojdbc6</artifactId>
+        <version>11.2.0</version>
+        <!-- Update to the version you found -->
+    </dependency>
+    
+</web-app>
